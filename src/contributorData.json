@@ -1,0 +1,28 @@
+{
+    "0": {
+        "name": "Sam Fondacaro",
+        "bio": [
+            "Hi! My name is Sam Fondacaro, I'm a second year Computer Science and Computational Math student. I'm also in RIT birding club, which originally drew me to this initiative. It's really sad to me that birds die in droves from such an easily preventable issue, but at the same time I find it heartening that there are growing initiatives in universities across the country to remedy this issue. I love that this course allows me to apply the technical skills to solve a genuinely important problem.",
+            "I had a dual purpose in creating this website; I want to showcase my peers' brilliant projects that are the culmination of an entire semester of work, but I also want to get information out about the cause.",
+            "Whenever I talk to friends, at least those who haven't already listened to me bloviate about bird-window collisions, they routinely guess that the number of birds who die from this problem every year number in the tens of thousands. When I tell them that this number is off by several orders of magnitude, they are shocked. This is not by any means their fault. It simply tells me that this is not an issue that the public is aware of.",
+            "My hope is that people will see this website, find the projects as interesting as I do, and come away knowledgable and concerned about the problem facing our avian friends, in Rochester and across the country."
+        ],
+        "file": "0.jpg",
+        "buttonText": "Check out the homepage!",
+        "projectBlurb": "Hello! Welcome to my website :D I used React JS with React Bootstrap components to make a replacement website, and I'm hoping to continue until I graduate.",
+        "projectTitle": "Portfolio Website"
+   },
+   "1": {
+        "name": "Hayden Barner",
+        "bio": [
+            "Hi! My name is Hayden Berner, and I'm a Master's student in Environmental Science. I earned my bachelor's degree in Environmental Science with a minor in Communications.",
+            "I've always had a strong appreciation for nature and animals, which continues to drive both my academic and personal interests. In the past I have interned at Seneca Park Zoo. I love spending time outdoors, especially hiking, and I enjoy volunteering to plant native trees and support local organisms and ecosystems.",
+            "This project aims to explore how members of the RIT community perceive the nature around campus, with a focus on birds and bird window collision interactions. Through an online survey (link to survey can be here also), we ask participants about their awareness of birds on campus, their experiences with bird collisions, and we ask about their thoughts & feelings with respect to wildlife in urban community spaces.",
+            "By understanding how people view and emotionally respond to these interactions with birds and their collisions with building windows, this project aims to highlight the relationship between people, infrastructure, and wildlife at RIT.  Gathering the perspectives of RIT community members in this survey and future work, can help inform current and future efforts by prioritizing humans sharing campus with wildlife while preserving our community's connection to its ideals and beliefs."
+        ],
+        "file": "1.jpg",
+        "buttonText": "Take the Survey",
+        "projectBlurb": "Hayden spent the semester developing and deploying a Qualitirics survey to better understand the emotional impact of bird strikes.",
+        "projectTitle": "Campus Collision Survey"
+   }
+}
