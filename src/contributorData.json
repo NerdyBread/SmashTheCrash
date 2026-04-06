@@ -2,7 +2,7 @@
     "0": {
         "name": "Sam Fondacaro",
         "bio": [
-            "Hi! My name is Sam Fondacaro, I'm a second year Computer Science and Computational Math student. I'm also in RIT birding club, which originally drew me to this initiative. It's really sad to me that birds die in droves from such an easily preventable issue, but at the same time I find it heartening that there are growing initiatives in universities across the country to remedy this issue. I love that this course allows me to apply the technical skills to solve a genuinely important problem.",
+            "Hi! My name is Sam Fondacaro, I'm a second year Computer Science and Computational Math student. I'm also in RIT's Birding Club, which originally drew me to this initiative. It's really sad to me that birds die in droves from such an easily preventable issue, but at the same time I find it heartening that there are growing initiatives in universities across the country to remedy this issue. I love that this course allows me to apply the technical skills to solve a genuinely important problem.",
             "I had a dual purpose in creating this website; I want to showcase my peers' brilliant projects that are the culmination of an entire semester of work, but I also want to get information out about the cause.",
             "Whenever I talk to friends, at least those who haven't already listened to me bloviate about bird-window collisions, they routinely guess that the number of birds who die from this problem every year number in the tens of thousands. When I tell them that this number is off by several orders of magnitude, they are shocked. This is not by any means their fault. It simply tells me that this is not an issue that the public is aware of.",
             "My hope is that people will see this website, find the projects as interesting as I do, and come away knowledgable and concerned about the problem facing our avian friends, in Rochester and across the country."
@@ -10,10 +10,11 @@
         "file": "0.jpg",
         "buttonText": "Check out the homepage!",
         "projectBlurb": "Hello! Welcome to my website :D I used React JS with React Bootstrap components to make a replacement website, and I'm hoping to continue until I graduate.",
-        "projectTitle": "Portfolio Website"
+        "projectTitle": "Portfolio Website",
+        "shortenedBio": "My name is Sam Fondacaro, I'm a second year Computer Science and Computational Math student. I'm also a member of the RIT Birding Club! I created this website as a portfolio for the work of my classmates, for this semester and the future. The opportunity to use my technical skills to make positive change excites me deeply."
    },
    "1": {
-        "name": "Hayden Barner",
+        "name": "Hayden Berner",
         "bio": [
             "Hi! My name is Hayden Berner, and I'm a Master's student in Environmental Science. I earned my bachelor's degree in Environmental Science with a minor in Communications.",
             "I've always had a strong appreciation for nature and animals, which continues to drive both my academic and personal interests. In the past I have interned at Seneca Park Zoo. I love spending time outdoors, especially hiking, and I enjoy volunteering to plant native trees and support local organisms and ecosystems.",
@@ -23,6 +24,20 @@
         "file": "1.jpg",
         "buttonText": "Take the Survey",
         "projectBlurb": "Hayden spent the semester developing and deploying a Qualitirics survey to better understand the emotional impact of bird strikes.",
-        "projectTitle": "Campus Collision Survey"
+        "projectTitle": "Campus Collision Survey",
+        "shortenedBio": "Hi! My name is Hayden Berner, and I'm a Master's student in Environmental Science. I earned my bachelor's degree in Environmental Science with a minor in Communications. This project aims to explore how members of the RIT community perceive the nature around campus, with a focus on birds and bird window collisions."
+   },
+   "2": {
+        "name": "Dr. Richard Fadok (Course Instructor)",
+        "bio": [
+            "Richard Fadok is the instructor of Smash the Crash, a vertically integrated project (VIP) course at RIT.",
+            "He is an assistant professor of anthropology at RIT, where his research examines how the built environment shapes everyday relations of violence, care, and justice between human and nonhuman animals.",
+            "He is also the founder and director of Smash the Crash, a university-community initiative to study and prevent bird-window collisions in Rochester, New York.",
+            "He has a PhD in History, Anthropology, and Science, Technology, and Society from MIT and held postdoctoral fellowships at the University of Pennsylvania and the University of Rochester."
+        ],
+        "shortenedBio": "Richard Fadok is the instructor of Smash the Crash, a vertically integrated project (VIP) course at RIT. He is an assistant professor of anthropology at RIT. He is also the founder and director of Smash the Crash, a university-community initiative to study and prevent bird-window collisions in Rochester, New York.",
+        "file": "2.jpg",
+        "instructor": "T",
+        "buttonText": "Go to profile"
    }
 }

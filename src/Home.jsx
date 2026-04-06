@@ -30,7 +30,7 @@ function Home() {
             src={ BirdCarousel } alt="Image of a bird perched on a branch, taken on the RIT campus"
             className='img-fluid w-50 rounded-corners'
             />
-            <p className='offwhite mb-0'>An Alder Flycatcher (?) photographed on the RIT campus</p>
+            <p className='offwhite mb-0'>An Alder (?) Flycatcher</p>
             <p className='offwhite'>Credit: Alex from RIT Birding Club</p>
           </div>
         </div>
