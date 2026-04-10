@@ -16,10 +16,23 @@ export default function Report() {
                   <p className='offwhite mb-0 text-end'>Photo courtesy of Alex from RIT Birding</p>
                 </div>
             </div>
-            <p>
-                    Many birds that collide with windows will appear stunned or confused but appear to otherwise be unharmed. Sadly, research has shown that many birds who initially survive collisions die later from internal injuries.
-If you find a bird that is still alive, follow the steps. Below If the bird was a victim of a collision, please report the collision below with our tool if you wish. The data gathered will serve the purpose of highlighting the vast number of bird strikes in Rochester, in order to better understand the issue and to help us advocate for policy change.
+            <div className='d-flex justify-content-center mt-4'>
+              <div className='w-75'>
+                <p className='offwhite text-center'>
+                  Rochester is a major hotspot for birds. Over 300 different species reside in this city or migrate through the area every fall and spring—some 1 million birds in total.
+                  Nevertheless, tens of thousands of these very same birds will suffer annually from fatal collisions with our buildings, including many here at RIT.</p>
+                <p className='offwhite text-center'>
+                  If you see a collision, find a bird that you believe was a victim of a one, or find other evidence of a collision, please report it below with our tool. The data gathered will elucidate the scale of the problem and, eventually, allow us to wield empirical evidence in our advocacy for bird-friendly policy.
                 </p>
+                <div className='d-flex justify-content-center mb-3'>
+                  <a className='customButton nav-link' href='https://arcg.is/1HG5yD' target='_blank'>Click Here to Report Collision</a>
+                </div>
+                <p className='offwhite text-center'>
+                  Many birds that collide with windows will appear stunned or confused but appear to otherwise be unharmed. Sadly, research has shown that many birds who initially survive collisions die later from internal injuries. 
+                  If you find a bird that has hit a window, or is otherwise injured but still alive, please follow the steps below to give it a better chance of survival.
+                </p>
+              </div>
+            </div>
         </div>
     )
 }

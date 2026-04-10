@@ -9,15 +9,15 @@ function Home() {
       <link rel="stylesheet" href="https://rsms.me/inter/inter.css"></link>
       <div className='banner parallax-container' style={{backgroundImage: `url(${BannerImage})`}}>
         <div className='nav-overlay title'>
-          <h1 className='accent-color px-2'>Smash the Crash</h1>
+          <h1 className='offwhite px-2'>Smash the Crash</h1>
           <h3 className='offwhite px-2'>Ending bird-window collisions in Rochester</h3>
         </div>
         <div className='nav-overlay position-absolute bottom-0 end-0 w-100'>
           <p className='offwhite mb-0 text-end'>Photo courtesy of Alex from RIT Birding</p>
         </div>
       </div>
-      <div className='main-content'>
-        <div className='d-flex justify-content-between align-items-start'>
+      <div className=''>
+        <div className='d-flex justify-content-around align-items-start'>
           <div className='w-50 ms-5 mt-5'>
             <h2 className='offwhite mb-4'>Over ten thousand birds are estimated to die from window collisions in Rochester, New York, every year.</h2>
             <p className='offwhite large'>Tragically, many of these birds collide into our buildings every year, resident and migratory species alike. Most of them are killed on impact, and many survivors die later from internal injuries.</p>
@@ -41,8 +41,8 @@ function Home() {
           <div className='mt-5 d-flex flex-wrap justify-content-center flex-container'>
             <ProjectCard id='0'></ProjectCard>
             <ProjectCard id='1'></ProjectCard>
-            <ProjectCard id='0'></ProjectCard>
-            <ProjectCard id='1'></ProjectCard>
+            <ProjectCard id='3'></ProjectCard>
+            <ProjectCard id='4'></ProjectCard>
             <ProjectCard id='0'></ProjectCard>       
             <ProjectCard id='1'></ProjectCard>
           </div>

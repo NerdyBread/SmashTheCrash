@@ -1,7 +1,16 @@
 .navitem {
-    color: #EAE6E5; 
+    color: #FFFFFF;
+    font-size: 1.1rem;
 }
 
 .navitem:hover {
-    color: #12130F;
+    text-decoration: underline;
+}
+
+.logo:hover {
+    transform: scale(1.2);
+}
+
+.logo {
+    transition: all 0.2s ease-in-out;
 }

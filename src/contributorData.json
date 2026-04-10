@@ -38,6 +38,31 @@
         "shortenedBio": "Richard Fadok is the instructor of Smash the Crash, a vertically integrated project (VIP) course at RIT. He is an assistant professor of anthropology at RIT. He is also the founder and director of Smash the Crash, a university-community initiative to study and prevent bird-window collisions in Rochester, New York.",
         "file": "2.jpg",
         "instructor": "T",
-        "buttonText": "Go to profile"
+        "buttonText": "Go to Projects"
+   }, 
+   "3": {
+        "name": "Christopher Nokes",
+        "bio": [
+            "My name is Christopher Nokes, I'm a senior in the Computer Engineering and Computer Science undergraduate programs here at RIT. My experience is primarily in embedded systems and hardware design and verification. I've had internships at Picatinny Arsenal, Ciena, Fresenius Medical Care, and Clarity Innovations, and have been doing research in hardware security since my third year.",
+            "My project is motivated by the lack of universal and consistent tools for measuring bird-window collisions. Existing survey methods are limited by human factors such as time and availability, while automated methods tend to either over-sample or under-sample collisions due to factors such as noise and sensor sensitivity. Accurate collision numbers create more convincing arguments for bird-safe regulations, and help ensure the efficacy of collision mitigation tools."
+        ],
+        "shortenedBio": "Christopher Nokes is a senior in the Computer Engineering and Computer Science undergraduate programs, working on the automated detection of bird-window collisions using low-cost IoT devices.",
+        "projectTitle": "Collision Detector",
+        "projectBlurb": "Chris spent the semester on an independent study, focused on the original idea of using his programming and computer engineering expertise to create an automated collision detector.",
+        "file": "3.png",
+        "buttonText": "View Project"
+    },
+   "4": {
+        "name": "Ian Torres",
+        "bio": [
+            "Hi! My name is Ian Torres, and I am a student at the Rochester Institute of Technology studying Humanities, Computation, and Design, with a background in cybersecurity and data analysis.",
+            "My work on Smash the Crash focuses on collecting, organizing, and visualizing bird collision data to better understand how these events occur across Rochester. I have been developing tools to process observation data, map collision hotspots, and create interactive visualizations that make these patterns easier to interpret and communicate.",
+            "This project is motivated by the challenge of making collision data both reliable and accessible. While there are many individual reports of bird-window collisions, they are often scattered, inconsistently recorded, or difficult to analyze at scale. By building a structured pipeline and visual mapping tools, my goal is to highlight where collisions are most concentrated and support more targeted, data-driven approaches to bird-safe design."
+        ],
+        "shortenedBio": "Ian spent the semester developing data and mapping tools to better understand where bird collisions occur across Rochester. His work focuses on identifying hotspots and creating visualizations that support bird-safe design and awareness.",
+        "file": "4.jpg",
+        "buttonText": "View Project",
+        "projectTitle": "Data Visualization",
+        "projectBlurb": "Ian developed methods of displaying quantitative data about window strikes, culminating in a Story Map which is a centerpiece of the website that convincingly tells the story of bird-window collisions in Rochester."
    }
 }
