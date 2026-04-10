@@ -4,6 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router'
 import { useState } from 'react'
 import NavLink from './NavLink.jsx';
+import Logo from '../assets/logoWhite.png'
 import './nav.css'
 
 let minOpacity = 0.4
@@ -26,7 +27,7 @@ function Navigation() {
             <Container fluid className='ms-5'>
                 <Navbar.Brand as={Link} to="/" className="navitem">
                     <img
-                    src="/src/assets/logoWhite.png" alt="Home"
+                    src={ Logo } alt="Home"
                     width="80"
                     height="80"
                     className="d-inline-block align-top logo"

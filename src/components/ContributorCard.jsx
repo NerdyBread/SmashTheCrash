@@ -4,7 +4,7 @@ import './card.css'
 import data from '../contributorData.json';
 
 export default function ContributorCard({id}) {
-    const imgSrc = `/src/assets/profilePictures/${data[id]['file']}`
+    const imgSrc = `/profilePictures/${data[id]['file']}`
     const name = data[id]['name'];
     const goLink = `contributors/${id}`;
     const cardText = data[id]['shortenedBio'];

@@ -7,7 +7,8 @@ import contributorData from './contributorData.json'
 
 export default function Contributor() {
     let id = useParams().uid;
-    const path = `/src/assets/profilePictures/${contributorData[id]["file"]}`
+    // const path = `/src/assets/profilePictures/${contributorData[id]["file"]}`
+    const path = `/profilePictures/${contributorData[id]["file"]}`
     const projectLink = `projects/${id}`
     const name = contributorData[id]["name"]
     const bio = contributorData[id]["bio"]
@@ -15,7 +16,7 @@ export default function Contributor() {
         <p className='offwhite'>{paragraph}</p>
     )
     return (
-        <div className='d-flex justify-content-between align-items-start m-5'>
+        <div className='d-flex justify-content-between align-items-start m-5 pt-5'>
             <div className='w-75 mt-5'>
                 <h1 className='text-center mb-4 weird-accent'>{ name }</h1>
                 <div>
