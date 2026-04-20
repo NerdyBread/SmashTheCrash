@@ -1,0 +1,10 @@
+.big-text-container {
+    width: 90%;
+    text-align: center;
+}
+
+.title {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+}

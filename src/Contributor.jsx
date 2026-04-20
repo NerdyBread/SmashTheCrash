@@ -6,7 +6,7 @@ import contributorData from './contributorData.json'
 // central rock climbing gym
 
 export default function Contributor() {
-    let id = useParams().uid;
+    let id = useParams().uid; // react router method that parses dynamic components from URL
     // const path = `/src/assets/profilePictures/${contributorData[id]["file"]}`
     const path = `/profilePictures/${contributorData[id]["file"]}`
     const projectLink = `projects/${id}`

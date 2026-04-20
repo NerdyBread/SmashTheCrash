@@ -8,7 +8,6 @@ import Contributors from './Contributors.jsx';
 import Home from './Home.jsx'
 import Report from './Report.jsx'
 import Navigation from './components/Navigation.jsx';
-import { AccordionButton } from 'react-bootstrap';
 
 /**
  * I wonder if there is a better way to make multiple routes point to the same place
