@@ -51,12 +51,12 @@ export default function About() {
                     </p>
                     <h2 className='heading mb-5 pt-5'>Birds Matter</h2>
                     <p>
-                        Many find it hard to commit themselves to the cause of preventing window strikes when we face ecologial and environmental issues like climate change,
+                        Many find it hard to commit themselves to the cause of preventing window strikes when we face ecological and environmental issues like climate change,
                         deforestation, and ocean acidification. While bird-window collisions are a quieter, less covered environmental tragedy, this slow violence towards our
                         avian friends is indeed a tragedy in its own right. One reason that ending bird-window collisions matters is that birds are a key contributor to the ecosystem of
                         the entire country. They ensure equilibrium by eating around 400 million tons of insects annually, and they pollinate plants and spread seeds while feeding.
                         Birds and their habitats make their surroundings more vibrant and beautiful. Birdwatching also is a massive driver of the economy: it generates an
-                        esimated $280 billion dollars of economic output annually.
+                        estimated $280 billion dollars of economic output annually.
                     </p>
                     <p>
                         Birds are a beautiful, precious animal, and they are dying. A primary driver of this sharp increase of avian mortality is bird-window collisions.
