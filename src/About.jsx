@@ -30,7 +30,7 @@ export default function About() {
                     </p>
                     <p>
                         This is an urgent matter. In North America, populations of birds have already declined by almost a third since the 1970s. If we want to prevent their further loss,
-                        we need to end bird-window collisions now. We need to smash the crash.
+                        we need to end bird-window collisions now. We need to <span className='bold'>Smash the Crash</span>.
                     </p>
                     <p>
                         Launched in September 2024, we are led by a team of student and faculty researchers and practitioners from RIT and the University of
