@@ -2,6 +2,7 @@ body {
     margin: 0;
     background-color: #4d5d53;
     font-family: "Abril Text", Georgia, serif;
+    margin-bottom: 10vw;
 }
 
 /*
@@ -115,5 +116,9 @@ p.large {
 }
 
 .big-text-container {
-    width: 80%;
+    width: 85%;
+}
+
+.bottom-spacing {
+    margin-bottom: 10vw;
 }

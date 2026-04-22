@@ -4,7 +4,7 @@ import BirdCarousel from './assets/sillyLittleGuyGB.jpg'
 
 function Home() {
   return (
-    <>
+    <div>
       <link rel="preconnect" href="https://rsms.me/"></link>
       <link rel="stylesheet" href="https://rsms.me/inter/inter.css"></link>
       <div className='banner parallax-container' style={{backgroundImage: `url(${BannerImage})`}}>
@@ -30,7 +30,7 @@ function Home() {
             src={ BirdCarousel } alt="Image of a bird perched on a branch, taken on the RIT campus"
             className='mt-2 img-fluid w-50 rounded-corners'
             />
-            <p className='offwhite mb-0'>A Pewee Flycatcher</p>
+            <p className='offwhite mb-0 mt-2'>A Pewee Flycatcher</p>
             <p className='offwhite'>Credit: Alex from RIT Birding Club</p>
           </div>
         </div>
@@ -38,17 +38,19 @@ function Home() {
           <h1 className='weird-accent bold'>Spring 2026 Projects</h1>
         </div>
         <div className='d-flex justify-content-center'>
-          <div className='mt-5 d-flex flex-wrap justify-content-center flex-container'>
-            <ProjectCard id='0'></ProjectCard>
-            <ProjectCard id='1'></ProjectCard>
-            <ProjectCard id='3'></ProjectCard>
-            <ProjectCard id='4'></ProjectCard>
-            <ProjectCard id='0'></ProjectCard>       
-            <ProjectCard id='1'></ProjectCard>
+          <div className='big-text-container'>
+            <div className='mt-5 d-flex flex-wrap justify-content-center flex-container'>
+              <ProjectCard id='0'></ProjectCard>
+              <ProjectCard id='1'></ProjectCard>
+              <ProjectCard id='3'></ProjectCard>
+              <ProjectCard id='4'></ProjectCard>
+              <ProjectCard id='0'></ProjectCard>       
+              <ProjectCard id='1'></ProjectCard>
+            </div>
           </div>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 

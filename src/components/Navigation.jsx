@@ -25,7 +25,7 @@ function Navigation() {
             'backgroundColor': `rgba(115, 130, 118, ${navbarOpacity})`
         }}>
             <Container fluid className='ms-5'>
-                <Navbar.Brand as={Link} to="/" className="navitem">
+                <Navbar.Brand as={Link} to="/">
                     <img
                     src={ Logo } alt="Home"
                     width="80"

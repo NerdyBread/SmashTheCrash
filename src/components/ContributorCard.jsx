@@ -13,9 +13,9 @@ export default function ContributorCard({id}) {
             <img className='card-img' src={imgSrc}/>
             <Card.Body>
                 <Card.Title>{name}</Card.Title>
-                <Card.Text>
+                <p className='dark-color'>
                     {cardText}
-                </Card.Text>
+                </p>
                 <CustomButton text={'View Profile'} link={goLink} classname='card-bottom'/>
             </Card.Body>
         </Card>

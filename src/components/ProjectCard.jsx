@@ -14,7 +14,7 @@ export default function ProjectCard({id}) {
                 <Card.Title>{name}</Card.Title>
                 <Card.Subtitle>{projectTitle}</Card.Subtitle>
                 <hr/>
-                <Card.Text>{blurb}</Card.Text>
+                <p className='dark-color'>{blurb}</p>
                 <CustomButton text="Go to project" link={`projects/${projectLink}`} classname='card-bottom'></CustomButton>
             </Card.Body>
         </Card>
