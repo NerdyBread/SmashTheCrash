@@ -28,9 +28,9 @@ function Home() {
           <div className='w-50 text-center mt-5'>
             <img
             src={ BirdCarousel } alt="Image of a bird perched on a branch, taken on the RIT campus"
-            className='img-fluid w-50 rounded-corners'
+            className='mt-2 img-fluid w-50 rounded-corners'
             />
-            <p className='offwhite mb-0'>An Alder (?) Flycatcher</p>
+            <p className='offwhite mb-0'>A Pewee Flycatcher</p>
             <p className='offwhite'>Credit: Alex from RIT Birding Club</p>
           </div>
         </div>

@@ -10,7 +10,7 @@ export default function About() {
                     <h1 className='offwhite px-2'>About the Initiative</h1>
                 </div>
                 <div className='nav-overlay position-absolute bottom-0 end-0 w-100'>
-                    <p className='offwhite mb-0 text-end'>A yellow-bellied sapsucker killed by a collision on the RIT campus</p>
+                    <p className='offwhite mb-0 text-end'>A yellow-bellied sapsucker killed by a collision with Gosnell Hall, found and buried during Spring 2026</p>
                 </div>
             </div>
             <div className='d-flex justify-content-center'>
@@ -37,7 +37,7 @@ export default function About() {
                         Rochester in partnership with local non-profit organizations dedicated to environmental conservation. Through scientific research, art/design, 
                         and educational outreach, we are working to make our city a safer place for resident and migratory birds.
                     </p>
-                    <h2 className='heading mt-5 mb-5 pt-5'>Why This Matters</h2>
+                    <h2 className='heading mb-5 pt-5'>Why This Matters</h2>
                     <p className='offwhite'>
                         Many find it hard to commit themselves to the cause of preventing window strikes when we face ecologial and environmental issues like climate change,
                         deforestation, and ocean acidification. While bird-window collisions are a quieter, less covered environmental tragedy, this slow violence towards our

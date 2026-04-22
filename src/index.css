@@ -1,7 +1,7 @@
 body {
     margin: 0;
     background-color: #4d5d53;
-    font-family: 'Inter', sans-serif;
+    font-family: "Abril Text", Georgia, serif;
 }
 
 /*
@@ -25,8 +25,13 @@ body {
 }
     */
 
-p {
-    font-family: "Abril Text", Georgia, serif;
+p, li {
+    font-family: 'Inter', sans-serif;
+    color: #EAE6E5
+}
+
+li {
+    margin-top: 0.4rem;
 }
 
 .header-container {
@@ -48,7 +53,7 @@ p {
 }
 
 .nav-overlay {
-    background: rgba(0,0,0,0.55);
+    background: rgba(0,0,0,0.70);
     z-index: 2;
     width: auto;
     padding: 0.5rem;
@@ -56,9 +61,6 @@ p {
 
 .title {
    position: absolute;
-   top: 50%;
-   left: 55%;
-   transform: translate(-50%, -50%);
 }
 
 
@@ -107,7 +109,11 @@ p.large {
     border-radius: 0.4rem;
     padding: 0.45rem;
     padding-left: 0.6rem;
-    padding-right:0.6rem;
+    padding-right: 0.6rem;
     width: fit-content;
     font-style: normal;
+}
+
+.big-text-container {
+    width: 80%;
 }

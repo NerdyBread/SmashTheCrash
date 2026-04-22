@@ -7,7 +7,7 @@ export default function ProjectCard({id}) {
     let name = data[id]['name']
     let projectTitle = data[id]['projectTitle']
     let blurb = data[id]['projectBlurb']
-    // TODO replace contributors link with projects link once projects are on the website
+    let projectLink = data[id]['projectLink']
     return (
         <Card className='project-card'>
             <Card.Body className='card-body'>
@@ -15,7 +15,7 @@ export default function ProjectCard({id}) {
                 <Card.Subtitle>{projectTitle}</Card.Subtitle>
                 <hr/>
                 <Card.Text>{blurb}</Card.Text>
-                <CustomButton text="Go to project" link={`contributors/${id}`} classname='card-bottom'></CustomButton>
+                <CustomButton text="Go to project" link={`projects/${projectLink}`} classname='card-bottom'></CustomButton>
             </Card.Body>
         </Card>
     )
