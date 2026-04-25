@@ -6,7 +6,7 @@ export default function About() {
     return (
         <div>
             <div className='banner parallax-container' style={{backgroundImage: `url(${AboutBanner})`}}>
-                <div className='nav-overlay title'>
+                <div className='nav-overlay about-title'>
                     <h1 className='offwhite px-2'>About the Initiative</h1>
                 </div>
                 <div className='nav-overlay position-absolute bottom-0 end-0 w-100'>
