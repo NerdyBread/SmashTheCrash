@@ -9,7 +9,7 @@ export default function Contributor() {
     let id = useParams().uid; // react router method that parses dynamic components from URL
     // const path = `/src/assets/profilePictures/${contributorData[id]["file"]}`
     const path = `/profilePictures/${contributorData[id]["file"]}`
-    const projectLink = `projects/${id}`
+    const projectLink = contributorData[id]["projectLink"]
     const name = contributorData[id]["name"]
     const bio = contributorData[id]["bio"]
     let bioComponents = bio.map((paragraph) =>

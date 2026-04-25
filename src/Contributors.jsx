@@ -12,6 +12,7 @@ export default function Contributors() {
                 <ContributorCard id='1'></ContributorCard>
                 <ContributorCard id='3'></ContributorCard>
                 <ContributorCard id='4'></ContributorCard>
+                <ContributorCard id='5'></ContributorCard>
             </div>
         </div>
     )

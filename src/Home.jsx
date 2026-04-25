@@ -31,7 +31,7 @@ function Home() {
             className='mt-2 img-fluid w-50 rounded-corners'
             />
             <p className='mb-0 mt-2'>A Pewee Flycatcher</p>
-            <p>Credit: Alex from RIT Birding Club</p>
+            <p>Credit: Alex Nacol</p>
           </div>
         </div>
         <div className='mt-5 text-center'>
@@ -44,8 +44,7 @@ function Home() {
               <ProjectCard id='1'></ProjectCard>
               <ProjectCard id='3'></ProjectCard>
               <ProjectCard id='4'></ProjectCard>
-              <ProjectCard id='0'></ProjectCard>       
-              <ProjectCard id='1'></ProjectCard>
+              <ProjectCard id='5'></ProjectCard>
             </div>
           </div>
         </div>

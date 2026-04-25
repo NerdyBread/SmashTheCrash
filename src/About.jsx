@@ -10,7 +10,7 @@ export default function About() {
                     <h1 className='offwhite px-2'>About the Initiative</h1>
                 </div>
                 <div className='nav-overlay position-absolute bottom-0 end-0 w-100'>
-                    <p className='offwhite mb-0 text-end'>Photo courtesy of Alex from RIT Birding </p>
+                    <p className='offwhite mb-0 text-end'>Photo courtesy of Alex Nacol </p>
                 </div>
             </div>
             <div className='d-flex justify-content-center'>

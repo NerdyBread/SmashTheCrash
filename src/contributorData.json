@@ -40,8 +40,8 @@
         "shortenedBio": "Richard Fadok is the instructor of Smash the Crash, a vertically integrated project (VIP) course at RIT. He is an assistant professor of anthropology at RIT. He is also the founder and director of Smash the Crash, a university-community initiative to study and prevent bird-window collisions in Rochester, New York.",
         "file": "2.jpg",
         "instructor": "T",
-        "buttonText": "Go to Projects",
-        "projectLink": "projects"
+        "buttonText": "See Current Students",
+        "projectLink": "../contributors"
    }, 
    "3": {
         "name": "Christopher Nokes",
@@ -69,5 +69,16 @@
         "projectTitle": "Data Visualization",
         "projectBlurb": "Ian developed methods of displaying quantitative data about window strikes, culminating in a Story Map which is a centerpiece of the website that convincingly tells the story of bird-window collisions in Rochester.",
         "projectLink": "story-map"
+   },
+   "5": {
+        "name": "Cecilia Schulz",
+        "bio": ["Cecilia Schulz is a second year Applied Statistics and Data Analytics major with a minor in Accounting and Business. She is the president of the Association for Women in Mathematics and a member of the the RIT chapter of the American Statistical Association and Women in Business.",
+                "Cecilia did an economic analysis of retrofitting techniques by examining the prices of different bird-safe window materials and their respective installation costs in order to help business owners and contractors have a better idea of what to budget for retrofitting."],
+        "shortenedBio": "Cecilia Schulz is a second year Applied Statistics and Data Analytics major with a minor in Accounting and Business. She is also the president of the Association for Women in Mathematics and a member of the the RIT chapter of the American Statistical Association and Women in Business.",
+        "file": "5.png",
+        "buttonText": "Go to Project",
+        "projectTitle": "Economic Analysis",
+        "projectBlurb": "This analysis examines the prices of different bird-safe window materials and their installation costs, in order to look at window strikes from an economic angle.",
+        "projectLink": "???"
    }
 }
