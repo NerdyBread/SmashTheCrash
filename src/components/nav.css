@@ -4,6 +4,11 @@
     margin-left: 1rem;
 }
 
+.navitem-background {
+    background-color: #4d5d53;
+    border-radius: 3px;
+}
+
 .navitem:hover {
     text-decoration: underline;
 }

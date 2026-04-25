@@ -43,7 +43,7 @@ function Navigation() {
                         <NavLink link="story-map" text="Collisions in Rochester"/>
                         <NavLink link="projects" text="Projects"/>
                         <NavLink link="contributors" text="Team"/>
-                        <NavLink link="report" text="Report a Collision"/>
+                        <NavLink link="report" text="Report a Collision" report="true"/>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

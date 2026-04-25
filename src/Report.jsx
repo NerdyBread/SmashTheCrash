@@ -1,4 +1,4 @@
-import BannerImage from './assets/hummingbird.jpg'
+import BannerImage from './assets/yellowBelliedSapsuckerStrike.jpg'
 
 export default function Report() {
     return (
@@ -13,7 +13,7 @@ export default function Report() {
                   <h1 className='offwhite px-2'>Report a Collision</h1>
                 </div>
                 <div className='nav-overlay position-absolute bottom-0 end-0 w-100'>
-                  <p className='offwhite mb-0 text-end'>Photo courtesy of Alex from RIT Birding</p>
+                  <p className='offwhite mb-0 text-end'>A yellow-bellied sapsucker killed by a collision with Gosnell Hall; found and buried during Spring 2026</p>
                 </div>
             </div>
             <div className='d-flex justify-content-center mt-4'>

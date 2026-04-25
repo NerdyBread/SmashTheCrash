@@ -1,5 +1,5 @@
 import ProjectCard from './components/ProjectCard';
-import BannerImage from './assets/birdOnLeaf.jpg'
+import BannerImage from './assets/capeMay.png'
 import BirdCarousel from './assets/sillyLittleGuyGB.jpg'
 
 function Home() {
@@ -13,7 +13,7 @@ function Home() {
           <h3 className='offwhite px-2'>Ending bird-window collisions in Rochester</h3>
         </div>
         <div className='nav-overlay position-absolute bottom-0 end-0 w-100'>
-          <p className='offwhite mb-0 text-end'>Photo courtesy of Alex from RIT Birding</p>
+          <p className='offwhite mb-0 text-end'>Cape May Warbler found on campus, courtesy of Alex Nacol</p>
         </div>
       </div>
       <div className=''>
