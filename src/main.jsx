@@ -9,6 +9,7 @@ import Home from './Home.jsx'
 import Report from './Report.jsx'
 import Navigation from './components/Navigation.jsx';
 import StoryMap from './StoryMap.jsx';
+import Detector from './Detector.jsx';
 
 /**
  * I wonder if there is a better way to make multiple routes point to the same place
@@ -29,6 +30,7 @@ createRoot(document.getElementById('root')).render(
       <Route path='contributors' element={<Contributors/>}></Route>
       <Route path='contributors/:uid' element={<Contributor/>}></Route>
       <Route path='story-map' element={<StoryMap/>}></Route>
+      <Route path='projects/detector' element={<Detector/>}></Route>
     </Routes>
   </BrowserRouter>
 )
