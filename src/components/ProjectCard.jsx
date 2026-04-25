@@ -8,7 +8,7 @@ export default function ProjectCard({id}) {
     let projectTitle = data[id]['projectTitle']
     let blurb = data[id]['projectBlurb']
     let projectLink = data[id]['projectLink']
-    let linkComponent = <CustomButton text="Go to project" link={`projects/${projectLink}`} classname='card-bottom'></CustomButton>
+    let linkComponent = <CustomButton text="Go to project" link={projectLink} classname='card-bottom'></CustomButton>
     if (data[id]['externalLink'] == 'true') {
         linkComponent = <a href={projectLink} className='card-button card-bottom' target='_blank'>Go to project</a>
     }
