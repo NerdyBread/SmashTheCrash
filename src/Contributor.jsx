@@ -12,9 +12,14 @@ export default function Contributor() {
     const projectLink = contributorData[id]["projectLink"]
     const name = contributorData[id]["name"]
     const bio = contributorData[id]["bio"]
+    const buttonText = contributorData[id]["buttonText"]
     let bioComponents = bio.map((paragraph) =>
         <p className='offwhite'>{paragraph}</p>
     )
+    let linkComponent = <CustomButton text={contributorData[id]['buttonText']} link={projectLink} border={ true }></CustomButton>
+    if (contributorData[id]['externalLink'] == 'true') {
+        linkComponent = <a href={projectLink} className='card-button colored-border' target='_blank'>{buttonText}</a>
+    }
     return (
         <div className='d-flex justify-content-between align-items-start m-5 pt-5'>
             <div className='w-75 mt-5'>
@@ -31,7 +36,7 @@ export default function Contributor() {
                 />
                 <hr/>
                 <div className='center-contents'>
-                    <CustomButton text={contributorData[id]['buttonText']} link={projectLink} border={ true }></CustomButton>
+                    {linkComponent}
                 </div>
             </div>
         </div>

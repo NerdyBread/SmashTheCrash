@@ -27,7 +27,8 @@
         "projectBlurb": "Hayden spent the semester developing and deploying a Qualitirics survey to better understand the emotional impact of bird strikes.",
         "projectTitle": "Campus Collision Survey",
         "shortenedBio": "Hi! My name is Hayden Berner, and I'm a Master's student in Environmental Science. I earned my bachelor's degree in Environmental Science with a minor in Communications. This project aims to explore how members of the RIT community perceive the nature around campus, with a focus on birds and bird window collisions.",
-        "projectLink": "survey"
+        "projectLink": "https://rit.az1.qualtrics.com/jfe/form/SV_71ld8DgZHqnDwfY",
+        "externalLink": "true"
    },
    "2": {
         "name": "Dr. Richard Fadok (Course Instructor)",
@@ -54,7 +55,7 @@
         "projectBlurb": "Chris spent the semester on an independent study, focused on the original idea of using his programming and computer engineering expertise to create an automated collision detector.",
         "file": "3.png",
         "buttonText": "View Project",
-        "projectLink": "detector"
+        "projectLink": "projects/detector"
     },
    "4": {
         "name": "Ian Torres",
@@ -68,7 +69,7 @@
         "buttonText": "View Project",
         "projectTitle": "Data Visualization",
         "projectBlurb": "Ian developed methods of displaying quantitative data about window strikes, culminating in a Story Map which is a centerpiece of the website that convincingly tells the story of bird-window collisions in Rochester.",
-        "projectLink": "story-map"
+        "projectLink": "projects/story-map"
    },
    "5": {
         "name": "Cecilia Schulz",
@@ -79,6 +80,6 @@
         "buttonText": "Go to Project",
         "projectTitle": "Economic Analysis",
         "projectBlurb": "This analysis examines the prices of different bird-safe window materials and their installation costs, in order to look at window strikes from an economic angle.",
-        "projectLink": "???"
+        "projectLink": "projects/economics"
    }
 }

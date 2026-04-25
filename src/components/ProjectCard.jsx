@@ -8,6 +8,10 @@ export default function ProjectCard({id}) {
     let projectTitle = data[id]['projectTitle']
     let blurb = data[id]['projectBlurb']
     let projectLink = data[id]['projectLink']
+    let linkComponent = <CustomButton text="Go to project" link={`projects/${projectLink}`} classname='card-bottom'></CustomButton>
+    if (data[id]['externalLink'] == 'true') {
+        linkComponent = <a href={projectLink} className='card-button card-bottom' target='_blank'>Go to project</a>
+    }
     return (
         <Card className='project-card'>
             <Card.Body className='card-body'>
@@ -15,7 +19,7 @@ export default function ProjectCard({id}) {
                 <Card.Subtitle>{projectTitle}</Card.Subtitle>
                 <hr/>
                 <p className='dark-color'>{blurb}</p>
-                <CustomButton text="Go to project" link={`projects/${projectLink}`} classname='card-bottom'></CustomButton>
+                {linkComponent}
             </Card.Body>
         </Card>
     )

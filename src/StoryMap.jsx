@@ -8,7 +8,7 @@ export default function StoryMap() {
             </div>
             <div className='map-container'>
                 <iframe
-                src="maps/rochester_bird_map.html"
+                src="../maps/rochester_bird_map.html"
                 width="850rem"
                 height="500rem">
                 </iframe>
@@ -21,7 +21,7 @@ export default function StoryMap() {
             </div>
             <div className='map-container'>
                 <iframe
-                src="maps/rochester_bird_heatmap.html"
+                src="../maps/rochester_bird_heatmap.html"
                 width="850rem"
                 height="500rem">
                 </iframe>
@@ -34,7 +34,7 @@ export default function StoryMap() {
             </div>
             <div className='map-container'>
                 <iframe
-                src="maps/rochester_bird_county_choropleth.html"
+                src="../maps/rochester_bird_county_choropleth.html"
                 width="850rem"
                 height="500rem">
                 </iframe>

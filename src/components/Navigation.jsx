@@ -40,7 +40,8 @@ function Navigation() {
                     </Nav>
                     <Nav className='ms-auto me-5'>
                         <NavLink link="about" text="About"/>
-                        <NavLink link="story-map" text="Collisions in Rochester"/>
+                        <NavLink link="projects/story-map" text="Collisions in Rochester"/>
+                        <NavLink link="contributors/1" text="Collision Survey"/>
                         <NavLink link="contributors" text="Team"/>
                         <NavLink link="report" text="Report a Collision" report="true"/>
                     </Nav>
